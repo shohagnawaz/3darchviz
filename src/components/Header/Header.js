@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../../images/logo.png';
 import './Header.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav } from 'react-bootstrap';
@@ -11,7 +10,7 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Brand href="#home">
                     <a className="header"> 
-                        <img src={logo} alt="" />
+                        <img src="/images/logo.png" alt="" />
                     </a>
                 </Navbar.Brand>
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -26,18 +25,3 @@ const Header = () => {
 };
 
 export default Header;
-
-
-// import React from 'react';
-// import logo from '../../images/logo.jpg';
-// import './Header.css';
-
-// const Header = () => {
-//     return (
-//         <div className="header">
-//             <img src={logo} alt="" />
-//         </div>
-//     );
-// };
-
-// export default Header;
