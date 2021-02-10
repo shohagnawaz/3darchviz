@@ -1,14 +1,4 @@
-import './App.css';
-import Header from './components/Header/Header';
-import ImageRow from './components/ImageRow/ImageRow';
+import Routes from './routes'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
-function App() {
-  return (
-    <div>
-      <Header></Header>
-      <ImageRow></ImageRow>
-    </div>
-  );
-}
-
-export default App;
+export default () => <Routes />
