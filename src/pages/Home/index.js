@@ -5,7 +5,7 @@ import { imageList } from './mockData'
 
 export default () => {
     return (
-        <div>
+        <div className="abc">
             <Header />
             <Container fluid>
                 <Row>

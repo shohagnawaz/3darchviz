@@ -5,10 +5,8 @@ export default () => {
     return (
         <Navbar bg="dark" variant="dark" expand="sm">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Brand href="#home">
-                <a className="header">
-                    <img src="/images/logo.png" alt="" />
-                </a>
+            <Navbar.Brand href="/" className="header">
+                <img src="/images/logo.png" alt="" />
             </Navbar.Brand>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
